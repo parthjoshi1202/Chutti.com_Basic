@@ -1,6 +1,6 @@
 /*
 COMP 1073 MODULE 5 Project
-Name- Parth Joshi Lakehead ID- 1126914
+Name- Parth Joshi 
 
 Vacation Rental- Chutti.com (Chutti- Indian word for Vacation/Holiday)
 Should Include name, price,
