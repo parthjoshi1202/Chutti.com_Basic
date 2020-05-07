@@ -1,0 +1,48 @@
+<!--COMP 1073 MODULE 5 Project
+Name- Parth Joshi Lakehead ID- 1126914  -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+      <meta charset="utf-8">
+      <title>Welcome to Chutti !</title>
+      <link href="main.css" rel="stylesheet"> 
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq3N6RM86HTvy82iW4aFNfzjA3oLg5l6M&callback=init_Map"
+      async defer></script>
+      <script src="main.js" async defer></script>
+    
+    </head>
+    <body>
+      <header> 
+        <h1>Chutti.com</h1>
+      </header>
+      <main id="content">
+        <h2>On your Bags, Get, Set, Go !!</h2>
+        <button>Click to see where you Are</button>
+        <p> </p>
+
+        <h4>Taj Rooms, Agra</h4>
+        <img src="taj_mahal_stay.jpg" alt="agra" class="center" height="310" width="400" > 
+        <button onclick="agra.displayDesc()">View</button>
+        <button onclick="agra.checkAv()">Check Availability</button>
+
+        <div id="map"></div>
+        
+        
+        <h4>Simcoe Cottage,Barrie</h4>
+        <img src="barrie.jpg" alt="barrie" class="center" height="310" width="400" > 
+        <button onclick="barrie.displayDesc(),barrie1.calc(),barrie2.host()">View</button> 
+        <button onclick="barrie.checkAv()">Check Availability</button> 
+
+        <div id="map1"></div>
+
+        <h4>Here are your Details.... !</h4>
+        <p>All Prices shown are Per Night Charges</p>
+        
+      </main>
+      <footer>
+        <p><small>COMP 1073 Module 3 Project</small></p>
+        <p><small>Chutti is an Indian word for Holiday/Vacation</small></p>
+      </footer>
+    </body>
+</html>
